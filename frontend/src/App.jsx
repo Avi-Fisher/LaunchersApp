@@ -14,9 +14,9 @@ function App() {
         <Navbar/>
 
         <Routes>
-          <Route path='/' element={Home}/> 
-          <Route path='/launcher/add' element={AddLauncher}/> 
-          <Route path='/launcher/details' element={LauncherDetails}/> 
+          <Route path='/' element={<Home/>}/> 
+          <Route path='/launcher/add' element={<AddLauncher/>}/> 
+          <Route path='/launcher/details' element={<LauncherDetails/>}/> 
         </Routes>
     </BrowserRouter>
     </>

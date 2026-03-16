@@ -1,0 +1,13 @@
+.con-navbar{
+    background-color: grey;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.con-links{
+    display: flex;
+    gap: 2rem;
+}
+

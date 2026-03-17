@@ -9,6 +9,7 @@ const router = express.Router()
 
 router.get("/getuser",loginToken, (req, res) => {
     try {
+        
         const user = findUserByUserName()
         res.status(200).json({ data })
     } catch (error) {

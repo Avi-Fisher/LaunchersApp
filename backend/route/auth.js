@@ -1,6 +1,7 @@
 import express from "express"
 import  {addRow, readCsvFile}  from "../db/readcsv.js"
 import loginToken from "../middleware/checkTokken.js"
+import { findUserByAgentCode } from "../utils/findUser.js"
 
 const router = express.Router()
 
@@ -8,7 +9,7 @@ const router = express.Router()
 
 router.get("/getuser",loginToken, (req, res) => {
     try {
-        const user = 
+        const user = findUserByUserName()
         res.status(200).json({ data })
     } catch (error) {
         console.error(error.message)

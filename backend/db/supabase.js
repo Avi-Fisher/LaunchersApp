@@ -1,8 +1,7 @@
 // import 'dotenv/config'
-
 // import { createClient } from 'npm:@supabase/supabase-js@2'
 
-// const supabase = createClient(process.env.NEXT_PUBLIC_SUPABASE_URL, process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_DEFAULT_KEY)
+// const supabase = createClient("https://bdycayxfjndyoihhgvqp.supabase.co", "sb_publishable_F2zNW0awpUr7hSvzI5uJtg_D9SeIB9H")
 
 // export async function getData(){
 //     const { data, error } = await supabase
@@ -12,4 +11,4 @@
   
 // }
 
-// await getData()
+
